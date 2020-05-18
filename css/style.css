@@ -1,0 +1,293 @@
+* {
+	font-family: 'Jost', 'Roboto', 'Arial', sans-serrif;
+}
+
+.letter-spacing-10 {
+	letter-spacing: 10px;
+}
+
+.letter-spacing-5 {
+	letter-spacing: 5px;
+}
+
+.letter-spacing-2 {
+	letter-spacing: 2px;
+}
+
+.letter-spacing-1 {
+	letter-spacing: 1px;
+}
+
+.font-size-18 {
+	font-size: 26px;
+}
+
+.banner {
+	background: url('../images/banner-background.jpg') center center no-repeat;
+	background-size: cover;
+	min-height: 500px;
+}
+
+.banner::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4);
+}
+
+.banner h3 {
+	font-weight: lighter;
+}
+
+.navbar-toggler {
+	border: none;
+}
+
+.navbar-toggler i {
+	transform: rotate(180deg);
+}
+
+.navbar {
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	z-index: 9999;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.fixed-top {
+	background: #fff;
+	border: none;
+	box-shadow: 0 2px 5px rgba(0,0,0,.1);
+}
+
+.navbar .nav-link {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+@media (min-width: 540px) {
+	.nav-item {
+		padding: 0 !important;
+		margin-left: 36px;
+	}
+
+	.about-item {
+		width: 50%;
+	}
+}
+
+button:focus {
+	outline: none;
+}
+
+@media (max-width: 540px) {
+	.about-item {
+		width: 100%;
+	}
+
+	.banner .display-2 {
+		font-size: 46px !important;
+	}
+
+	.banner .display-4 {
+		font-size: 32px !important;
+	}
+
+	.banner h3 {
+		font-size: 18px;
+	}
+
+	.navbar .container-fluid {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.flex-wrap-wrap {
+	flex-wrap: wrap;
+}
+
+.about-item {
+	height: 400px;
+}
+
+.about-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.about-text p {
+	line-height: 32px;
+}
+
+.about-text .fa-quote-right {
+	position: absolute;
+	bottom: 0;
+	font-size: 200px;
+	color: #fff;
+	opacity: .1;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.social-link a {
+	font-size: 26px;
+	margin-right: 15px;
+}
+
+.icon {
+	font-size: 75px;
+	color: rgba(0,0,0,.3);
+	height: 120px;
+}
+
+.divider {
+	width: 80px;
+	height: 1px;
+	background: rgba(0,0,0,.2);
+}
+
+.btn-rounded {
+	border-radius: 40px;
+	text-transform: uppercase;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+
+.card-custom {
+	background: rgba(255,255,255,.5);
+	margin-bottom: 30px;
+}
+
+.card-custom-active {
+	background: #fff;
+	box-shadow: 0 6px 15px 4px rgba(0,0,0,.06);
+	border: none;
+	margin-bottom: 30px;
+}
+
+.benefit .h4 {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.filter-link button {
+	border: none;
+	background: transparent;
+	text-transform: uppercase;
+	margin: 0 15px;
+	/*color: #17a2b8;*/
+	padding-left: 0;
+	padding-right: 0;
+	transition: .4s;
+	border: 1px solid rgba(0,0,0,.0);
+}
+
+.filter-link button:focus, .filter-link button:hover {
+	color: #17a2b8;
+	border-bottom: 1px solid #17a2b8;
+	outline: none;
+}
+
+.gallery-item {
+	margin-bottom: 30px;
+	display: block;
+	position: relative;
+}
+
+.gallery-item img {
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+}
+
+.filter-item .photo .label {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	padding: 8px;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.filter-item .video .video-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+}
+
+.filter-item .video .video-overlay button {
+	border: none;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	color: #222;
+	font-size: 28px;
+	position: relative;
+}
+
+#map {
+	height: 400px;
+}
+
+.footer-top .text-info {
+	font-size: 30px;
+	margin-right: 12px;
+}
+
+.footer-top .link a {
+	font-size: 26px;
+	margin-right: 10px;
+}
+
+.btn-black {
+	background: #111;
+}
+
+.contact-icon {
+	font-size: 32px;
+	margin-right: 10px;
+}
+
+footer {
+	height: 70px;
+	border-top: 1px solid rgba(0,0,0,.1);
+}
+
+footer .text {
+	color: #888;
+}
+
+@media (max-width: 540px) {
+	.footer-top .col-md-4, .footer-top .col-md-5, .footer-top .col-md-7 {
+		margin-bottom: 15px;
+	}
+
+	.about .about-item:nth-child(2) {
+		height: auto;
+	}
+
+	.section-title {
+		font-size: 32px;
+	}
+}
+
+.icon-wrapper {
+	width: 40px;
+	display: flex;
+	justify-content: center;
+}
